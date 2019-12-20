@@ -53,11 +53,14 @@ function greeting( obj ) {
   Sum up the values and return the total number.
 */
 function totalPopulation(obj){
-  
-}
-//Code Here
+  utah: 2
+  california: 3
+  texas: 4
+  arizona:5
 
+let {utah, california, texas, arizona} = totalPopulation
 
+return utah + california + texas + arizona;}
 
 ////////// PROBLEM 4 //////////
 
@@ -68,6 +71,10 @@ function totalPopulation(obj){
   Use object destructuring to save the property values to new variables. 
   Push these new variables to an array and return the array. 
 */
+function ingredients (obj){carb, fat, protein
+}
+let {carb, fat, protien} =obj;
+
 
 //Code Here
 
@@ -87,7 +94,9 @@ function totalPopulation(obj){
   Find the smallest number of the three and return that number.
 */
 
-//Code Here
+function largeNumbers({first, second, third}){
+
+}
 
 
 
@@ -99,6 +108,9 @@ function totalPopulation(obj){
   Find the longest array and return that array.
 */
 
+function numberGroups({a, b, c}){
+  
+}
 //Code Here
 
 
