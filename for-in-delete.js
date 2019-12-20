@@ -27,9 +27,9 @@
   In this next example, we are accessing the property names themselves. Uncomment the code below, run it and look at what prints in the console.
 */
 
-// for(var key in values) {
-//   console.log(key)
-// }
+for(var key in values) {
+   console.log(key)
+ }
 
 
 
@@ -40,7 +40,11 @@
 */
 
 function showValues( obj ) {
-  //Code Here
+  let arr = []
+  for(let key in obj){
+    arr.push(obj[key])
+  }
+  return arr.join("");
 }
 
 
@@ -52,7 +56,14 @@ function showValues( obj ) {
   Write a for in loop that loops over the object and changes any value that is greater than 10 to 0. 
   Return the updated object.
 */
-
+function greaterThan10(obj){
+  for(let key in obj){
+    if(obj[key]>10){
+      obj[key]=0;
+    }
+  }
+  return obj;
+}
 //Code Here
 
 
